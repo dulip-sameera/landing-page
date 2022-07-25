@@ -94,4 +94,42 @@ a {
 
 /* ---- Information Section ---- */
 
+.info {
+    padding: 50px 20% 150px 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.info-head {
+    font-size: 36px;
+    font-weight: bolder;
+    font-variant-caps: #1f2937;
+}
+
+.info-content {
+    display: flex;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    text-align: center;
+    width: 150px;
+    margin-top: 5px;
+    color: #666666;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
