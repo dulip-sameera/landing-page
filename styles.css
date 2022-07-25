@@ -38,8 +38,8 @@ ul li {
 }
 
 .header .hero img {
-    width: 500px;
-    height: 230px;
+    width: 600px;
+    height: 240px;
 }
 
 .hero {
@@ -51,6 +51,11 @@ ul li {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.hero-para {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav, .hero-para {
@@ -68,11 +73,10 @@ ul li {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 700;
-    padding: 5px 20px 5px 20px;
+    padding: 10px 30px 10px 30px;
     border: 0px;
     border-radius: 5px;
     display: inline-block;
-    margin-top: 5px;
 }
 
 .content {
