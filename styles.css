@@ -12,6 +12,9 @@ body {
     flex-direction: column;
 }
 
+
+/* ---- Header Section ---- */
+
 .header {
     background-color: #1f2937;
     padding-left: 20%;
@@ -87,3 +90,6 @@ a {
     text-decoration: none;
     color: #d8d8da;
 }
+
+
+/* ---- Information Section ---- */
