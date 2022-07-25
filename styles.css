@@ -82,13 +82,18 @@ ul li {
     display: inline-block;
 }
 
+.btn-signup:hover {
+    background-color: #45c1fa;
+}
+
 .content {
     width: 450px;
 }
 
 a {
     text-decoration: none;
-    color: #d8d8da;
+    color: #fdfdfd;
+    font-weight: bold;
 }
 
 
@@ -138,7 +143,7 @@ a {
 /* ---- Testimonial Section ---- */
 
 .testimonial-section {
-    height: 300px;
+    height: 400px;
     background-color: #e5e7eb;
     padding-left: 20%;
     padding-right: 20%;
@@ -165,4 +170,47 @@ a {
     font-weight: 900;
     color: #1f2937;
     align-self: flex-end;
+}
+
+/* ---- Call for action section ---- */
+
+.signup {
+    height: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-for-action {
+    background-color: #3882f6;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px 150px 50px 150px;
+}
+
+.call-action {
+    font-size: 32px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.action-description {
+    color: #d8d8da;
+    font-weight: 500;
+}
+
+.btn-signup-call {
+    border: 2px solid #f9faf8;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.btn-signup-call:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
 }
