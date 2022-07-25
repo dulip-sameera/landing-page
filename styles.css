@@ -212,5 +212,17 @@ a {
 
 .btn-signup-call:hover {
     color: #3882f6;
+    transition-duration: 300ms;
     background-color: #f9faf8;
+}
+
+/* ---- Footer section ---- */
+
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
