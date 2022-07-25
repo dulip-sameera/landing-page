@@ -133,3 +133,36 @@ a {
     border: 3px solid #3882f6;
     border-radius: 15px;
 }
+
+
+/* ---- Testimonial Section ---- */
+
+.testimonial-section {
+    height: 300px;
+    background-color: #e5e7eb;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.testimony {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
+}
